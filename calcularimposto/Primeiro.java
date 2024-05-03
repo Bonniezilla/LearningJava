@@ -1,3 +1,4 @@
+package calcularimposto;
 public class Primeiro {
 
     public static double[] calculoDesconto(double salarioBRT) {
@@ -33,7 +34,6 @@ public class Primeiro {
 
     public static void main(String[] args) {
         double salarioBRT = Double.valueOf(args[0]);
-        
         
         double descontoTotal = calculoDesconto(salarioBRT)[0];
         double descontoINSS = calculoDesconto(salarioBRT)[1];
