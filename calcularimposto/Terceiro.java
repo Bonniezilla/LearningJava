@@ -1,7 +1,5 @@
 package calcularimposto;
 
-import calcularimposto.Segundo.Calculadora;
-
 public class Terceiro {
     public static void main(String[] args) {
         double salarioBRT = Double.valueOf(args[0]);
